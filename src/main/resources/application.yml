@@ -1,0 +1,16 @@
+server:
+  port: 80
+spring:
+  application:
+    name: mq
+  rabbitmq: # all default
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+    queue-name: sample-rabbit-queue
+    exchange-name: sample-rabbit-exchange
+    routing-key: sample-routing-key
+
+
+
